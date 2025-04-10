@@ -13,7 +13,9 @@ public class Counter {
 
 	public  void increment() {
 
-		this.counter;
+		counter.incrementAndGet();// исправил
 	}
+
+
 }
 
